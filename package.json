@@ -22,6 +22,7 @@
     "eject": "react-scripts eject",
     "dev:server": "./node_modules/.bin/env-cmd ./node_modules/.bin/nodemon index.js",
     "dev:migrate": "./node_modules/.bin/env-cmd ./node_modules/.bin/sequelize db:migrate --env development --config ./configs/sequelize.js",
+    "dev": "./node_modules/.bin/concurrently \"npm run dev:server\" \"npm run dev:client\" ",
     "lint": "./node_modules/.bin/eslint --format codeframe .",
     "lint:fix": "./node_modules/.bin/eslint --fix --format codeframe ."
   },
