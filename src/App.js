@@ -1,9 +1,10 @@
 import './App.css'
+import Test from './components/novels'
 
 function App() {
   return (
     <div>
-      Front-End Working
+      < Test />
     </div>
   )
 }
