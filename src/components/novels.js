@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Test = () => {
+const Novels = () => {
   return (
-    <div>
-      Hello
+    <div className="app-container">
+      <h1>Great Novels</h1>
+      <input type="text" className="search" />
+
     </div>
   )
 }
 
-export default Test
+export default Novels
